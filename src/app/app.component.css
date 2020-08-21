@@ -1,0 +1,15 @@
+.demo-box {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(190, 37, 37);
+  color: #eee;
+  text-align: center;
+  margin:auto;
+  border-radius: 1em;
+}
+
+.controls {
+  padding: 15px;
+  margin: auto;
+  width: 230px;
+}

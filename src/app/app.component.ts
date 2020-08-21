@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-animations';
+  eleAnimation = 'slide_in_left';
+
+  changeAnim(newAnim: string): void {
+    this.eleAnimation = newAnim;
+  }
 }
